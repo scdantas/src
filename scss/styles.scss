@@ -1,0 +1,36 @@
+//Cria nossas cores
+$my-color1: rgba(0, 1, 2, 1);
+$my-color2: rgba(9, 73, 123, 1);
+$my-color3: rgba(15, 133, 224, 1);
+$my-color4: rgba(124, 188, 238, 1);
+$my-color5: rgba(252, 253, 255, 1);
+
+$colors: (
+
+    "my-color-1":       $my-color1,
+    "my-color-2":       $my-color2,
+    "my-color-3":       $my-color3,
+    "my-color-4":       $my-color4,
+    "my-color-5":       $my-color5
+    
+);
+
+//Classes personalizadas
+
+$link-color: $my-color2; 
+
+.bg-fundo-1 {
+      background-color: $my-color2 !important; 
+}
+.bg-fundo-2 {
+      background-color: $my-color4 !important; 
+}
+.bg-fundo-3 {
+      background-color: $my-color3 !important; 
+}
+.btn-fundo-2 {
+      background-color: $my-color4 !important; 
+}
+
+// importa o Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
